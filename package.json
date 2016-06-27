@@ -1,0 +1,22 @@
+{
+  "name": "mongoose-restful",
+  "version": "1.0.0",
+  "description": "A library that makes adding routes to express app and interaction with mongoDB easier than ever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marco-Azer/mongoose-restful.git"
+  },
+  "keywords": [
+    "restful"
+  ],
+  "author": "Marco Azer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marco-Azer/mongoose-restful/issues"
+  },
+  "homepage": "https://github.com/Marco-Azer/mongoose-restful#readme"
+}
