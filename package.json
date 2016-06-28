@@ -1,7 +1,7 @@
 {
-  "name": "mongoose-restful",
+  "name": "restful-database",
   "version": "1.0.0",
-  "description": "A library that makes adding routes to express app and interaction with mongoDB easier than ever",
+  "description": "A library that makes adding routes to express app and interaction with database easier than ever",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
