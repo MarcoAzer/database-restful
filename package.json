@@ -1,6 +1,6 @@
 {
   "name": "restful-database",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that makes adding routes to express app and interaction with database easier than ever",
   "main": "index.js",
   "scripts": {
