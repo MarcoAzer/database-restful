@@ -94,7 +94,9 @@ person(app); // Adds routes
 ```
 
 ##### GET
+Searches database by url query parameters by default. For nested objects search, use '__'. To search for street name in an address object, use "address__street_name=value"
 Searches by the req param name (i.e :param). In the example above, it searches by "first_name" and "last_name". The field in the database should have the same name.
+
 ##### POST
 No need to configure the backend to translate the request body to nested objects in the schema. All you have to do is "address.number" in the PUT request body. This supports as many nested objects in the schema.
 The schema parameter will allow error detection but is optional (not implemented yet)
