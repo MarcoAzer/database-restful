@@ -94,7 +94,8 @@ person(app); // Adds routes
 ```
 
 ##### GET
-Searches database by url query parameters by default.
+######By default
+Searches database by request query parameters.
 ```
 localhost:8080/node-api/?first_name=firstName&last_name=lastName
 ```
@@ -102,7 +103,13 @@ For nested objects search, use '__'.
 ```
 localhost:8080/node-api/?address__stree_name=streetName&address__postalcode=postalCode
 ```
-Searches by the req param name (i.e :param). In the example above, it searches by "first_name" and "last_name". The field in the database should have the same name.
+######User customized
+Searches by the req parameters.
+```
+url: 
+    full_name/:first_name/:last_name
+localhost:8080/node-api/full_name/firstName/lastName
+```
 
 ##### POST
 No need to configure the backend to translate the request body to nested objects in the schema. All you have to do is "address.number" in the PUT request body. This supports as many nested objects in the schema.
